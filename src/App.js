@@ -18,8 +18,9 @@ function App() {
       <Home />
       <About />
       <WhyUs />
-      <TrustGraph />
+
       <TrustProfile />
+      <TrustGraph />
       <Faq />
       <SignUp />
 

@@ -121,7 +121,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-primary-variant);
   color: var(--color-bg);
   border-color: transparent;
 }
