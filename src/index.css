@@ -21,6 +21,7 @@
 :root {
   --color-bg: #fcfcfd;
   --color-bg-variant: #90acc7;
+  --color-body: #f4f4f4;
   --color-primary: #1d1d1d;
   --color-primary-variant: rgba(6, 60, 99, 0.93);
   --color-white: #fff;
@@ -38,7 +39,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-light);
+  background: var(--color-body);
   color: var(--color-dark);
   line-height: 1.7;
 }
