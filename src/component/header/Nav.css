@@ -1,4 +1,4 @@
-header {
+/* header {
   width: 100%;
   color: #fff;
 }
@@ -25,4 +25,10 @@ nav {
   width: 60%;
   display: flex;
   justify-content: space-between;
+} */
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-primary-variant);
+  text-decoration: underline;
 }
