@@ -1,26 +1,25 @@
-/* .aboutContainer {
-  display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
-} */
+.aboutContainer {
+  background-color: #fff;
+  padding: 2rem;
+}
 
 .aboutIntro {
   width: 70%;
   margin: 2rem auto;
 }
 .aboutContainer h2 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: #262626;
   margin-bottom: 2rem;
 }
 
 .aboutContainer p {
   color: #606060;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .aboutContainer p > .span {
-  margin-left: 5rem;
+  margin-left: 6rem;
   color: #262626;
 }
 .aboutCards {
@@ -34,7 +33,10 @@
   width: 1;
   background-color: #909090;
 }
-
+.meContent {
+  border-radius: 10px;
+  background: #f7f7f5;
+}
 .aboutIcon {
   text-align: center;
   font-size: 1.4rem;
@@ -74,28 +76,26 @@
 
 /* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */
 @media screen and (max-width: 1024px) {
-  .aboutContainer {
-    grid-template-columns: 1fr;
-    gap: 0;
+  .aboutContainer h2 {
+    font-size: 1.1rem;
+    color: #262626;
+    margin-bottom: 1rem;
   }
 
-  .aboutMe {
-    width: 50%;
-    margin: 2rem auto 4rem;
+  .aboutContainer p {
+    color: #606060;
+    font-size: 1rem;
   }
 
-  .meContent p {
-    margin: 1rem 0 1.5rem;
+  .aboutContainer p > .span {
+    margin-left: 0rem;
+    color: #262626;
+    font-weight: 500;
   }
 }
 
 /* ===============================  MEDIA QUERY (SMALL DEVICES) ========================== */
 @media screen and (max-width: 600px) {
-  /* .aboutMe {
-    width: 65%;
-    margin: 0 auto 3rem;
-  } */
-
   .aboutIntro {
     width: 100%;
     margin: 2rem auto;

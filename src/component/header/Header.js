@@ -128,7 +128,7 @@ const Header = () => {
                 Trust Graph
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#faq"
                 onClick={() => setNav("#faq")}
@@ -145,7 +145,7 @@ const Header = () => {
               >
                 Sign Up
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

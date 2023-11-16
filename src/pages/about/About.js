@@ -13,9 +13,9 @@ const About = () => {
           At TrustGraph, we understand the importance of trust and security when
           it comes to online transactions. Our innovative platform is designed
           with two primary goals in mind:{" "}
-          <span className={style.span}>
+          <p className={style.span}>
             Building trust for vendors and preventing fraud for buyers.
-          </span>
+          </p>
         </p>
       </div>
       <div className={style.meContent}>
