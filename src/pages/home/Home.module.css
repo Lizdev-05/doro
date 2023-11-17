@@ -1,13 +1,13 @@
-.aboutContainer {
+/* .aboutContainer {
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
 
 .aboutMe {
-  width: 100%;
+  width: 100%; */
   /* stylelint-disable */
-  height: fit-content;
+  /* height: fit-content;
   border-radius: 2rem;
   background: linear-gradient(
     45deg,
@@ -64,10 +64,10 @@
 .meContent p {
   margin: 2rem 0 2.6rem;
   color: var(--color--light);
-}
+} */
 
 /* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .aboutContainer {
     grid-template-columns: 1fr;
     gap: 0;
@@ -107,4 +107,4 @@
     font-size: 2rem;
     font-weight: 600;
   }
-}
+} */

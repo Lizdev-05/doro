@@ -15,11 +15,11 @@ function App() {
   return (
     <div>
       <Header />
-      <Home />
+      {/* <Home /> */}
       <About />
       <WhyUs />
 
-      {/* <TrustProfile /> */}
+      <TrustProfile />
       <TrustGraph />
       <Faq />
       <Footer />

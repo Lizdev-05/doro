@@ -1,63 +1,46 @@
 import React from "react";
 import style from "./WhyUs.module.css";
-import whyImg from "../../assets/doro-home-img.svg";
-import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const WhyUs = () => {
   return (
-    <div id="why-us" className={`container ${style.whyContainer}`}>
-      <div className={style.whyIntro}>
-        <h2 id="">Why our users trust us</h2>
+    <div id="why-us" className={`container ${style.aboutContainer}`}>
+      <div className={style.aboutIntro}>
+        <h2 id="">
+          Establishing trust with buyers is essential for growing your business.
+          That's where we come in.
+        </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor
-          sed. Suspendisse lobortis vitae quis vehicula pellentesque sit id.
-          Urna posuere consequat velit vulputate faucibus pretium arcu accumsan.
+          At TrustGraph, we understand the importance of trust and security when
+          it comes to online transactions. Our innovative platform is designed
+          with two primary goals in mind:{" "}
+          <p className={style.span}>
+            Building trust for vendors and preventing fraud for buyers.
+          </p>
         </p>
       </div>
-      <div className={style.whyUs}>
-        <div className={style.whyMe}>
-          <div className={style.meImg}>
-            <img src={whyImg} alt="why-choose-us" />
-          </div>
-        </div>
-        <div className={style.whyContent}>
-          <h2>For Merchants: TrustProfile</h2>
-          <ul>
-            <li className={style.whyList}>
-              <IoIosCheckmarkCircleOutline className={style.icon} />
-              <span className={style.text}>
-                <b> Stand Out</b>: Differentiate yourself from the competition
-                with a complete and transparent trust profile.
-              </span>
-            </li>
-            <li className={style.whyList}>
-              <IoIosCheckmarkCircleOutline className={style.icon} />
-              <span className={style.text}>
-                {" "}
-                <b>Build Credibility:</b> Highlight positive reviews, ratings,
-                and testimonials from satisfied customers.
-              </span>
-            </li>
-            <li className={style.whyList}>
-              <IoIosCheckmarkCircleOutline className={style.icon} />
-              <span className={style.text}>
-                <b>Demonstrate Integrity: </b> Showcase your business history,
-                certifications, and ethical practices.
-              </span>
-            </li>
+      <div className={style.meContent}>
+        <div className={style.aboutCards}>
+          <article className={style.aboutCard}>
+            <h3>Over</h3>
+            <h5>100k</h5>
+            <small>Merchants Trust Us</small>
+          </article>
 
-            <li className={style.whyList}>
-              <IoIosCheckmarkCircleOutline className={style.icon} />
-              <span className={style.text}>
-                {" "}
-                <b>Boost Confidence:</b> Assure buyers that you are a
-                trustworthy seller, leading to increased sales
-              </span>
-            </li>
-          </ul>
-          <a href="#contact" className="btn btn-primary">
-            Sign Up
-          </a>
+          <article className={style.aboutCard}>
+            <h3>Processing</h3>
+            <h5>1 Million +</h5>
+            <small>Transactions Annually</small>
+          </article>
+          <article className={style.aboutCard}>
+            <h3>Built</h3>
+            <h5>100k</h5>
+            <small>Trust Networks</small>
+          </article>
+          <article className={style.aboutCard}>
+            <h3>Rated</h3>
+            <h5>4.9 / 5 Stars</h5>
+            <small>By Our Users</small>
+          </article>
         </div>
       </div>
     </div>
