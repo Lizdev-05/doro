@@ -20,8 +20,8 @@ const WhyUs = () => {
             <img src={whyImg} alt="why-choose-us" />
           </div>
         </div>
-        <div className={style.meContent}>
-          <h3>For Merchants: TrustProfile</h3>
+        <div className={style.whyContent}>
+          <h2>For Merchants: TrustProfile</h2>
           <ul>
             <li className={style.whyList}>
               <IoIosCheckmarkCircleOutline className={style.icon} />
@@ -55,6 +55,9 @@ const WhyUs = () => {
               </span>
             </li>
           </ul>
+          <a href="#contact" className="btn btn-primary">
+            Sign Up
+          </a>
         </div>
       </div>
     </div>

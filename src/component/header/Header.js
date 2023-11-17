@@ -83,7 +83,7 @@ const Header = () => {
           className={classNames(mobileMenu ? "block" : "hidden", "md:block")}
         >
           <ul className="flex flex-col gap-8 items-center mt-24 md:flex-row md:mt-1">
-            <li>
+            {/* <li>
               <a
                 href="#"
                 onClick={() => setNav("#")}
@@ -91,7 +91,7 @@ const Header = () => {
               >
                 Home
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#about"
@@ -128,7 +128,7 @@ const Header = () => {
                 Trust Graph
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 href="#faq"
                 onClick={() => setNav("#faq")}
@@ -145,7 +145,7 @@ const Header = () => {
               >
                 Sign Up
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>

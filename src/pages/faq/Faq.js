@@ -1,43 +1,32 @@
 import React from "react";
+import Accordion from "./Accordion";
+import whyImg from "../../assets/doro-home-img.svg";
+import style from "./Faq.module.css";
 
 const Faq = () => {
   return (
-    <div id="#faq">
-      <h1>FAQ</h1>
-      <p>
-        {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum officia
-        libero omnis eos, ipsa ratione obcaecati repellat exercitationem enim
-        maiores doloremque! Neque soluta, quia sit eveniet minus nam distinctio
-        expedita temporibus. Exercitationem, omnis. Quo maiores qui dolore
-        voluptatibus quos inventore? Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Ut corrupti eaque quod porro, libero, totam
-        reprehenderit tempore a, eum itaque quam aperiam doloremque eveniet
-        rerum laudantium asperiores? Odit perspiciatis autem quod? Alias
-        voluptatibus officia commodi nesciunt delectus iste est reprehenderit
-        temporibus incidunt quae eaque, sunt magni sed soluta officiis aliquam
-        illum culpa veniam dicta vitae deleniti recusandae illo fugit.
-        Accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Ut corrupti eaque quod porro, libero, totam reprehenderit tempore a, eum
-        itaque quam aperiam doloremque eveniet rerum laudantium asperiores? Odit
-        perspiciatis autem quod? Alias voluptatibus officia commodi nesciunt
-        delectus iste est reprehenderit temporibus incidunt quae eaque, sunt
-        magni sed soluta officiis aliquam illum culpa veniam dicta vitae
-        deleniti recusandae illo fugit. Accusantium. Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Ut corrupti eaque quod porro, libero,
-        totam reprehenderit tempore a, eum itaque quam aperiam doloremque
-        eveniet rerum laudantium asperiores? Odit perspiciatis autem quod? Alias
-        voluptatibus officia commodi nesciunt delectus iste est reprehenderit
-        temporibus incidunt quae eaque, sunt magni sed soluta officiis aliquam
-        illum culpa veniam dicta vitae deleniti recusandae illo fugit.
-        Accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Ut corrupti eaque quod porro, libero, totam reprehenderit tempore a, eum
-        itaque quam aperiam doloremque eveniet rerum laudantium asperiores? Odit
-        perspiciatis autem quod? Alias voluptatibus officia commodi nesciunt
-        delectus iste est reprehenderit temporibus incidunt quae eaque, sunt
-        magni sed soluta officiis aliquam illum culpa veniam dicta vitae
-        deleniti recusandae illo fugit. Accusantium.
-      </p>
+    <div id="#faq" className={`container ${style.whyContainer}`}>
+      <div className={style.whyUs}>
+        <Accordion
+          question="Can you provide assistance with integrating your payment solution into my online store or website?"
+          answer="Absolutely! We offer comprehensive integration support to make it easy for you to add our payment solution to your online store or website. Whether you're using a popular e-commerce platform or have a custom-built website, we have solutions to fit your needs."
+        />
+        <Accordion
+          question="Can you provide assistance with integrating your payment solution into my online store or website?"
+          answer="Absolutely! We offer comprehensive integration support to make it easy for you to add our payment solution to your online store or website. Whether you're using a popular e-commerce platform or have a custom-built website, we have solutions to fit your needs."
+        />
+        <Accordion
+          question="Can you provide assistance with integrating your payment solution into my online store or website?"
+          answer="Absolutely! We offer comprehensive integration support to make it easy for you to add our payment solution to your online store or website. Whether you're using a popular e-commerce platform or have a custom-built website, we have solutions to fit your needs."
+        />
+        <Accordion
+          question="Can you provide assistance with integrating your payment solution into my online store or website?"
+          answer="Absolutely! We offer comprehensive integration support to make it easy for you to add our payment solution to your online store or website. Whether you're using a popular e-commerce platform or have a custom-built website, we have solutions to fit your needs."
+        />
+      </div>
+      <div className={style.whyMe}>
+        <img src={whyImg} alt="" />
+      </div>
     </div>
   );
 };

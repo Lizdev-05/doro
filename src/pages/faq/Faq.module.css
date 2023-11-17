@@ -1,11 +1,38 @@
-.whyIntro {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 70%;
-  margin: 2rem auto;
+.accordionItem {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 50px;
 }
+
+.accordionItem.open {
+  max-height: 500px;
+}
+
+.accordionQuestion {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.toggleSign {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.accordionAnswer {
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+}
+
 .whyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background-color: #f1f1f1;
   margin-bottom: 5rem;
 }
 .whyContainer h2 {
@@ -23,16 +50,6 @@
 
   margin-bottom: 2rem;
 }
-.whyUs {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;
-}
-
-.icon {
-  font-weight: 500;
-  color: #266055;
-}
 
 .whyList {
   display: flex;
@@ -42,7 +59,9 @@
 .icon {
   margin-right: 10px; /* Adjust the margin as needed */
   margin-bottom: 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #266055;
 }
 
 .text {
@@ -60,7 +79,7 @@
 
 /* ===============================  MEDIA QUERY (SMALL DEVICES) ========================== */
 @media screen and (max-width: 600px) {
-  .whyUs {
+  .whyContainer {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
@@ -92,7 +111,7 @@
 
   .icon {
     margin-right: 10px; /* Adjust the margin as needed */
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     font-weight: 700;
     font-size: 4rem;
   }

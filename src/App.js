@@ -19,7 +19,7 @@ function App() {
       <About />
       <WhyUs />
 
-      <TrustProfile />
+      {/* <TrustProfile /> */}
       <TrustGraph />
       <Faq />
       <SignUp />
