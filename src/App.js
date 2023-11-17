@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./component/header/Header";
+import Footer from "./component/footer/Footer";
 import {
   Home,
   About,
@@ -22,7 +22,7 @@ function App() {
       {/* <TrustProfile /> */}
       <TrustGraph />
       <Faq />
-      <SignUp />
+      <Footer />
 
       {/* <BrowserRouter>
         <Header />
