@@ -24,6 +24,7 @@
   --color-body: #f4f4f4;
   --color-primary: #1d1d1d;
   --color-primary-variant: rgba(6, 60, 99, 0.93);
+  --color-hover: rgba(20, 117, 187, 0.93);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   --color-dark: rgb(32, 32, 32);
@@ -121,13 +122,13 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: var(--color-primary-variant);
+  background-color: var(--color-hover);
   color: var(--color-bg);
   border-color: transparent;
 }
 
 .btn-primary {
-  background: var(--color-primary);
+  background: var(--color-primary-variant);
   color: var(--color-bg);
 }
 

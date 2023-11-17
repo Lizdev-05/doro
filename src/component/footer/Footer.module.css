@@ -1,12 +1,3 @@
-.whyContainer {
-  margin-bottom: 5rem;
-}
-.whyContainer h2 {
-  font-size: 1.9rem;
-  color: #262626;
-  margin-bottom: 2rem;
-}
-
 .whyContent {
   width: 40%;
 }
@@ -26,22 +17,9 @@
   background-color: #f1f1f1;
 }
 
-.whyList {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  margin-right: 10px; /* Adjust the margin as needed */
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-  font-weight: 500;
-  color: #266055;
-}
-
-.meContent p {
-  margin: 2rem 0 2.6rem;
-  color: var(--color--light);
+.whyMe span {
+  color: var(--color-primary-variant);
+  font-weight: 700;
 }
 
 /* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */

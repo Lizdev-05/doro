@@ -141,7 +141,9 @@ const Header = () => {
               <a
                 href="#signup"
                 onClick={() => setNav("#signup")}
-                className={activeNav === "#signup" ? "active" : ""}
+                className={`btn btn-primary ${
+                  activeNav === "#signup" ? "active" : ""
+                }`}
               >
                 Sign Up
               </a>
