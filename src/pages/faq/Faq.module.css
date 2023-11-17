@@ -1,0 +1,137 @@
+.accordionItem {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 50px;
+}
+
+.accordionItem.open {
+  max-height: 500px;
+}
+
+.accordionQuestion {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.toggleSign {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.accordionAnswer {
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+}
+
+.whyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background-color: #f1f1f1;
+  margin-bottom: 5rem;
+}
+.whyContainer h2 {
+  font-size: 1.9rem;
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.whyContainer p {
+  color: #606060;
+  font-size: 0.9rem;
+}
+.whyContent h2 {
+  font-size: 1.9rem;
+
+  margin-bottom: 2rem;
+}
+
+.whyList {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px; /* Adjust the margin as needed */
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #266055;
+}
+
+.text {
+  flex-grow: 1;
+  color: #606060;
+}
+.meContent p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color--light);
+}
+
+/* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ===============================  MEDIA QUERY (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+  .whyContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .whyIntro {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .whyContainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .whyContainer p {
+    color: #606060;
+    font-size: 1rem;
+  }
+
+  .whyList {
+    display: flex;
+    align-items: center;
+  }
+
+  .whyContent h2 {
+    font-size: 1.5rem;
+
+    margin-bottom: 0.5rem;
+  }
+
+  .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    margin-bottom: 5rem;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .text {
+    flex-grow: 1;
+    color: #606060;
+    font-size: 1rem;
+  }
+
+  .meContent {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .meContent p {
+    margin: 1.5rem 0;
+  }
+  .meContent h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}

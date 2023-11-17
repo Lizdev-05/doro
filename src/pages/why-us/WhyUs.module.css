@@ -1,0 +1,132 @@
+.aboutContainer {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.aboutIntro {
+  width: 70%;
+  margin: 2rem auto;
+}
+.aboutContainer h2 {
+  font-size: 1.8rem;
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.aboutContainer p {
+  color: #606060;
+  font-size: 1rem;
+}
+
+.aboutContainer p > .span {
+  margin-left: 6rem;
+  color: #262626;
+}
+.aboutCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.lineBreak {
+  height: "100%";
+  width: 1;
+  background-color: #909090;
+}
+.meContent {
+  border-radius: 10px;
+  background: #f7f7f5;
+}
+.aboutIcon {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.aboutCard {
+  /* background: var(--color-bg-variant); */
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.aboutCard:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.aboutCard h5 {
+  font-size: 0.95rem;
+}
+
+.aboutCard small {
+  font-size: 0.7rem;
+  color: var(--color--light);
+}
+
+.meContent p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color--light);
+}
+
+/* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+  .aboutContainer h2 {
+    font-size: 1.1rem;
+    color: #262626;
+    margin-bottom: 1rem;
+  }
+
+  .aboutContainer p {
+    color: #606060;
+    font-size: 1rem;
+  }
+
+  .aboutContainer p > .span {
+    margin-left: 0rem;
+    color: #262626;
+    font-weight: 500;
+  }
+}
+
+/* ===============================  MEDIA QUERY (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+  .aboutIntro {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .aboutContainer h2 {
+    font-size: 1rem;
+    color: #262626;
+    margin-bottom: 2rem;
+  }
+
+  .aboutContainer p {
+    color: #606060;
+    font-size: 1rem;
+  }
+
+  .aboutContainer p > .span {
+    margin-left: 0rem;
+    color: #262626;
+  }
+  .aboutCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .meContent {
+    text-align: center;
+  }
+
+  .meContent p {
+    margin: 1.5rem 0;
+  }
+}

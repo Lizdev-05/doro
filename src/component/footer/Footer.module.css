@@ -1,0 +1,39 @@
+.whyContent {
+  width: 40%;
+}
+
+.whyContainer p {
+  color: #606060;
+  font-size: 0.9rem;
+}
+.whyContent h2 {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+.whyUs {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  background-color: #f1f1f1;
+}
+
+.whyMe span {
+  color: var(--color-primary-variant);
+  font-weight: 700;
+}
+
+/* ===============================  MEDIA QUERY (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ===============================  MEDIA QUERY (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+  .whyUs {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .whyContent {
+    width: 100%;
+  }
+}
